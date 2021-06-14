@@ -90,8 +90,8 @@
     <script>
         var flag = 1;
         function checkpsw(elem) {
-            if (elem.value.length < 8) {
-                document.getElementById('pasw').innerText = "Must be 8 characters at least";
+            if (elem.value.length != 8) {
+                document.getElementById('pasw').innerText = "Must not exceed 8 characters";
             }
             else {
                 document.getElementById('pasw').innerText = "";
