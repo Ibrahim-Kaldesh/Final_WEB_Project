@@ -76,7 +76,7 @@ span
 {
     font-family:TimeBurner;
     display:flex;
-    background-color: #333;
+    background-color: black;
     color:white;
     margin:0;
     width:100%;
@@ -88,7 +88,7 @@ span
 }
 .links i,.links h2
 {
-    color: yellow;
+    color: orangered;
 }
 .links a
 {
